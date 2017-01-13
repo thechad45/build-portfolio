@@ -1,0 +1,78 @@
+body {
+    font-family: 'Lato', sans-serif;
+    color: #2d3c49
+}
+
+a:link {
+    color: black;
+}
+
+/* header styles */
+
+.logo {
+    margin-top: 20px;
+}
+.thin-font {
+    font-weight: 300;
+    font-size: 42px;
+    margin: 30px 0 5px;
+}
+
+.title-font {
+    margin: 5px 0 20px;
+    font-size: 20px;
+}
+
+/* project styles */
+
+.feat-work {
+    color: #7d97ad;
+    margin-top: 10px;
+}
+
+.project-name {
+    margin: 10px 0 5px;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.link-text {
+    color: black;
+    text-transform: lowercase;
+}
+
+.img-center {
+    display: block;
+    margin: 0 auto;
+}
+
+hr {
+    margin: 0 15px 25px;
+    border-top: 3px #7d97ad solid;
+}
+
+/* media queries */
+
+@media screen and (min-width: 300px) {
+    .logo {
+        width: 25%;
+        float: left;
+    }
+    .my-name {
+        width: 75%;
+        float: left;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .feat-work {
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 450px) and (max-width: 991px) {
+    .projects {
+        width: 50%;
+        float: left;
+    }
+}
