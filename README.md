@@ -2,8 +2,7 @@
 
 ### Getting started
   * Download ZIP or clone this repository
-  * Start Pyton IDLE
-  * Open and run entertainment_center.py
+  * Launch the htm and check it out
 
 ### Requirements
   * A functional web browser
